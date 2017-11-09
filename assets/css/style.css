@@ -174,7 +174,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -182,7 +182,7 @@ input[type=submit] {
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #317c79;
 }
 .contactForm {
     border-radius: 5px;
