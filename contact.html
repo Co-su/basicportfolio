@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Corey Sullivan | Contact</title>
+	<title>Corey Sullivan | Landing</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-		<ul>
- 			<li id="titlebar"><strong>COREY SULLIVAN</strong></li>
-  			<div class="fallintoplacedammit">
-  			<li id="direct"><a href="#">ABOUT</a></li>
-  			<li id="direct"><a href="#">PORTFOLIO</a></li>
-  			<li id="direct"><a href="#">CONTACT</a></li>
-  			</div>
-		</ul>
-	<div></div>
+	<header class="pleasework">
+		<section class="navBar">
+			<ul>
+ 				<li id="titlebar"><strong>COREY SULLIVAN</strong></li>
+  				<li id="direct"><a href="contact.html">CONTACT</a></li>
+  				<li id="direct"><a href="portfolio.html">PORTFOLIO</a></li>
+  				<li id="direct"><a href="index.html">ABOUT</a></li>
+			</ul>
+		</section>	
+	</header>
 	<br>
 	<br>
 	<div class="container">
-		<section id="biobit">
-			<h1>ABOUT</h1>
+		<section id="containerContents">
+			<h1>CONTACT</h1>
 			<article id="biography">
-				<img src="assets/images/photos/bigjacket.jpg" id="aboutPic">
-				<p>Placeholder bio</p>
+				<div class="contactForm">
+  					<form action="/action_page.php">
+   						<label for="fname">Name</label>
+    					<input type="text" id="fname" name="firstname" placeholder="Who are you?">
+  						<label for="lname">Email</label>
+   						<input type="text" id="lname" name="lastname" placeholder="whoareyou@email.com">
+						<label for="subject">Subject</label>
+    					<textarea id="subject" name="subject" placeholder="What is your quest?" style="height:200px"></textarea>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
 			</article>
 		</section>
 		<aside id="connectWithMe">
-			<p>CONNECT</p>
+			<h2>CONNECT</h2>
 				<div class="icons">
-					<a href="#"><img src="assets/images/icons/linkedin.png" width="100%" height="100%" alt="LinkedIn"></a>
-					<a href="#"><img src="assets/images/icons/github.png" width="100%" height="100%" alt="Github"></a>
-					<a href="#"><img src="assets/images/icons/stackoverflowicon.png" width="100%" height="100%" alt="Stack Overflow"></a>
+					<a href="#"><i class="fa fa-stack-overflow"></i></a>
+					<a href="https://github.com/Co-su"><i class="fa fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/corey-sullivan-531047bb/"><i class="fa fa-linkedin"></i></a>
 				</div>
 		</aside>
 	</div>
-	<div id="footer">
-		
-	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer id="footer"><p>COPYRIGHT 2017 COREY SULLIVAN</p></footer>
 </body>
-</html>

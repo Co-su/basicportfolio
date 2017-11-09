@@ -1,69 +1,94 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Aharoni","Georgia","Arial",Times New Roman,Times, Serif;
+	font-family: "Georgia", Times, Times New Roman, serif, "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	background-image: url("../images/cork-wallet.png");
 	background-color: #0c1219;
 }
 a:link {
     text-decoration: none;
-    color: #edeae1;
+    color: #777777;
 }
 a:visited {
     text-decoration: none;
-    color: #edeae1;
+    color: #777777;
 }
 a:hover {
     text-decoration: underline;
-    color: #edeae1;
+    color: #777777;
 }
 a:active {
     text-decoration: underline;
-    color: #edeae1;
+    color: #777777;
 }
-li {
-	padding: 30px;
-	color: #edeae1;
-}
-#titlebar {
-	float: left;
-	font-size: 20px;
-}
-.fallintoplacedammit {
-	float: right;
-	margin-right: 20px;
-}
-#direct {
-	float: left;
-	font-size: 10px;
+.navbar {
+	padding: 20px;
+	width: 100%
+	background-color: #ffffff;
+    top: 0;
+    position: relative; 
 }
 ul {
     list-style-type: none;
-    margin: 0 auto;
     overflow: hidden;
-    background-color: #0c1219;
-    width: 960px
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 960px;
+    align-content: center;
+    position: relative;
+    border-bottom: 2px solid #cccccc;
+}
+li {
+	margin: 0 auto;
+	align-content: center;
+}
+#titlebar {
+	float: left;
+	background-color: #4aaaa5;
+	padding: 30px;
+	color: #ffffff;
+	position: absolute;
+}
+#direct {
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	float: right;
+	color: #777777
+	font-size: 10px;
+}
+header {
+	width: 100%
+	background-color: #ffffff;
+	color: ;
+}
+h1 {
+	color: #4aaaa5;
+}
+h2 {
+	color: #4aaaa5;
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
+	color: #777777;
 }
-#biobit {
+#containerContents {
 	width: 590px;
-	padding: 30px;
+	padding: 20px;
 	margin: 0 auto;
-	color: #edeae1;
-	background-color: #0c1219;
+	color: #777777;
+	background-color: #ffffff;
 	position: relative;
 	float: left;
-	text-align: center;
+	text-align: left;
+	border: 1px solid #cccccc;
 }
 #biography {
-	border-top: 2px solid #edeae1;
-	padding: 2px;
+	border-top: 1px solid #cccccc;
 	margin: 0 auto;
-	color: #edeae1;
-	background-color: #0c1219;
+	color: #777777;
+	background-color: #ffffff;
 	position: relative;
 	float: left;
 	text-align: left;
@@ -72,37 +97,88 @@ ul {
 }
 #aboutPic {
 	float: left;
-	max-width: 60%;
-	max-height: 60%;
-	padding: 20px;
+	max-width: 40%;
+	max-height: 40%;
+	margin: 20px;
 	background-color: #0c1219;
 }
 #connectWithMe {
-	width: 270px;
+	width: 230px;
+	padding: 20px;
 	margin: 0 auto;
-	color: #edeae1;
-	background-color: #0c1219;
+	background-color: #ffffff;
 	position: relative;
 	float: right;
 	text-align: center;
+	border: 1px solid #dddddd;
 }
 .icons {
-	max-width:15%;
-	max-height:15%;
-	text-align: center;
-	float: left;
-	clear: left;
-	width: 100%;
+	padding-width: 100%;
+	margin: 0 auto;
+	align-content: center;
+	border-top: 1px solid #dddddd;
+	position: relative;
 }
 .fa-stack-overflow {
-	font-size: 60px;
-	color: #edeae1;
+	padding: 10px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #e2af26;
+	position: relative;
 }
 .fa-linkedin {
-	font-size: 60px;
-	color: #edeae1;	
+	padding: 10px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 10px;	
+	color: #2649e2;	
+	position: relative;
 }
 .fa-github {
-	font-size: 60px;
-	color: #edeae1;
+	padding: 10px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 10px;	
+	color: 424242;
+	position: relative;
 }
+footer {
+	margin: 0 auto;
+	bottom: 0;
+	color: #edeae1;
+	background-color: #666666;
+	width: 100%;
+	font-size: 12px;
+	border-top: 3px solid #4aaaa5;
+	text-align: center;
+	position: fixed;
+	overflow: hidden;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.contactForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
