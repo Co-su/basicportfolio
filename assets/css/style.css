@@ -7,30 +7,24 @@ body {
 }
 a:link {
     text-decoration: none;
-    color: #edeae1;
+    color: #777777;
 }
 a:visited {
     text-decoration: none;
-    color: #edeae1;
+    color: #777777;
 }
 a:hover {
     text-decoration: underline;
-    color: #edeae1;
+    color: #777777;
 }
 a:active {
     text-decoration: underline;
-    color: #edeae1;
-}
-.pleaswork {
-	width: 100%;
-	position: relative;
-	top: 0;
-	right: 0;
+    color: #777777;
 }
 .navbar {
 	padding: 20px;
 	width: 100%
-	background-color: #0c1219;
+	background-color: #ffffff;
     top: 0;
     position: relative; 
 }
@@ -38,22 +32,21 @@ ul {
     list-style-type: none;
     overflow: hidden;
     margin: 0 auto;
-    background-color: #0c1219;
+    background-color: #ffffff;
     width: 960px;
     align-content: center;
     position: relative;
-
+    border-bottom: 2px solid #cccccc;
 }
 li {
 	margin: 0 auto;
-	color: #edeae1;
 	align-content: center;
 }
 #titlebar {
 	float: left;
-	font-size: 20px;
 	background-color: #4aaaa5;
 	padding: 30px;
+	color: #ffffff;
 	position: absolute;
 }
 #direct {
@@ -61,27 +54,41 @@ li {
 	padding-left: 30px;
 	padding-bottom: 30px;
 	float: right;
+	color: #777777
 	font-size: 10px;
+}
+header {
+	width: 100%
+	background-color: #ffffff;
+	color: ;
+}
+h1 {
+	color: #4aaaa5;
+}
+h2 {
+	color: #4aaaa5;
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
+	color: #777777;
 }
 #containerContents {
 	width: 590px;
 	padding: 20px;
 	margin: 0 auto;
-	color: #edeae1;
-	background-color: #0c1219;
+	color: #777777;
+	background-color: #ffffff;
 	position: relative;
 	float: left;
 	text-align: left;
+	border: 1px solid #cccccc;
 }
 #biography {
-	border-top: 1px solid #edeae1;
+	border-top: 1px solid #cccccc;
 	margin: 0 auto;
-	color: #edeae1;
-	background-color: #0c1219;
+	color: #777777;
+	background-color: #ffffff;
 	position: relative;
 	float: left;
 	text-align: left;
@@ -92,24 +99,24 @@ li {
 	float: left;
 	max-width: 40%;
 	max-height: 40%;
-	padding: 20px;
+	margin: 20px;
 	background-color: #0c1219;
 }
 #connectWithMe {
 	width: 230px;
 	padding: 20px;
 	margin: 0 auto;
-	color: #edeae1;
-	background-color: #0c1219;
+	background-color: #ffffff;
 	position: relative;
 	float: right;
 	text-align: center;
+	border: 1px solid #dddddd;
 }
 .icons {
 	padding-width: 100%;
 	margin: 0 auto;
 	align-content: center;
-	border-top: 1px solid #edeae1;
+	border-top: 1px solid #dddddd;
 	position: relative;
 }
 .fa-stack-overflow {
@@ -117,7 +124,7 @@ li {
 	font-size: 40px;
 	margin: 0 auto;
 	margin-top: 10px;
-	color: #edeae1;
+	color: #e2af26;
 	position: relative;
 }
 .fa-linkedin {
@@ -125,7 +132,7 @@ li {
 	font-size: 40px;
 	margin: 0 auto;
 	margin-top: 10px;	
-	color: #edeae1;	
+	color: #2649e2;	
 	position: relative;
 }
 .fa-github {
@@ -133,18 +140,17 @@ li {
 	font-size: 40px;
 	margin: 0 auto;
 	margin-top: 10px;	
-	color: #edeae1;
+	color: 424242;
 	position: relative;
 }
 footer {
 	margin: 0 auto;
 	bottom: 0;
 	color: #edeae1;
-	background-color: #0c1219;
+	background-color: #666666;
 	width: 100%;
-	font-size: 10px;
-	border-top: 10px solid #0c1219;
-	border-bottom: 10px solid #0c1219;
+	font-size: 12px;
+	border-top: 3px solid #4aaaa5;
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
